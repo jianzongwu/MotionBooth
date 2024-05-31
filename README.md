@@ -38,13 +38,13 @@
 **Customization and subject motion control**
 
 <div>
-    <video controls src="assets/demo1.mp4" autoplay loop></video>
+    <video controls src="https://github.com/jianzongwu/MotionBooth/blob/main/assets/demo1.mp4" autoplay loop></video>
 </div>
 
 **Hybrid control on customization, subject and camera motion**
 
 <div>
-    <video controls src="assets/demo2.mp4" autoplay loop></video>
+    <video controls src="https://github.com/jianzongwu/MotionBooth/blob/main/assets/demo2.mp4" autoplay loop></video>
 </div>
 
 
