@@ -37,22 +37,16 @@
 
 **Customization and subject motion control**
 
-<div>
-    <video controls src="assets/demo1.mp4" autoplay loop></video>
-</div>
+![Customization and subject motion control](assets/demo1.gif)
 
 **Hybrid control on customization, subject and camera motion**
 
-<div>
-    <video controls src="assets/demo2.mp4" autoplay loop></video>
-</div>
-
-
+![Hybrid control on customization, subject and camera motion](assets/demo2.gif)
 
 
 # 📢 Updates
 
-- Paper and code is tobe released!
+- Paper and code are to be released!
 
 # ⭐ Abstract
 
