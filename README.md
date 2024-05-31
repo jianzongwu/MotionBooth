@@ -37,11 +37,11 @@
 
 **Customization and subject motion control**
 
-![Customization and subject motion control](assets/demo1.gif)
+<img src="assets/demo1.gif" width="600">
 
 **Hybrid control on customization, subject and camera motion**
 
-![Hybrid control on customization, subject and camera motion](assets/demo2.gif)
+<img src="assets/demo2.gif" width="600">
 
 
 # 📢 Updates
