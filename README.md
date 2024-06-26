@@ -46,7 +46,7 @@
 
 # 📢 Updates
 
-- Paper and code are to be released!
+- code is coming soon!
 
 # ⭐ Abstract
 
@@ -56,5 +56,10 @@ In this work, we present MotionBooth, an innovative framework designed for anima
 # Citation
 
 ```
-TODO
+article{wu2024motionbooth,
+  title={MotionBooth: Motion-Aware Customized Text-to-Video Generation},
+  author={Jianzong Wu and Xiangtai Li and Yanhong Zeng and Jiangning Zhang and Qianyu Zhou and Yining Li and Yunhai Tong and Kai Chen},
+  journal={arXiv pre-print},
+  year={2024},
+}
 ```
