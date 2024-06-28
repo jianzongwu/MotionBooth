@@ -1,0 +1,48 @@
+model:
+  model_name: lavie
+  unet_trained_parameters: full
+
+train_data:
+  data_root: "data/MotionBooth/images"
+  mask_root: "data/MotionBooth/masks"
+  unique_token: sks
+  padding: True
+
+train_data_video:
+  data_root: data/panda/random
+  data_info_path: data/panda/captions_random.json
+
+optimizer:
+  learning_rate: 5e-6
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1.0e-08
+  adam_weight_decay: 0.01
+
+lr_scheduler:
+  name: constant
+  lr_warmup_steps: 0
+  lr_num_cycles: 1
+  lr_power: 1.0
+
+dataloader_num_workers: 0
+
+with_preservation_loss: False
+preservation_loss_weight: 1.0
+with_mask_loss: True
+video_loss_weight: 1.0
+with_cross_attn_loss: True
+cross_attn_loss_weight: 0.01
+
+train_batch_size: 10
+
+scale_lr: False
+gradient_accumulation_steps: 2
+gradient_checkpointing: False
+max_grad_norm: 1.0
+
+mixed_precision: bf16
+
+max_train_steps: 300
+validation_steps: 300
+checkpointing_steps: 300
