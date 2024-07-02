@@ -117,7 +117,9 @@ Then, run the following command to convert the checkpoint
 python -m scripts.convert_ckpts.convert_lavie_to_diffusers
 ``` 
 
-Then, rename the `stable-diffusion-v1-4` folder to `lavie`. The final checkpoint folder looks like this:
+Then, rename the `stable-diffusion-v1-4` folder to `lavie`. Additionally, you should replace the config file of unet to 3D dimensional config, following [checkpoint guide](docs/checkpoints.md).
+
+The final checkpoint folder looks like this:
 
 ```
 checkpoints
