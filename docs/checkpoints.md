@@ -1,4 +1,6 @@
-Please replace the lavie model's unet config file `checkpoints/lavie/unet/config.json` to below.
+Please replace the lavie model's config file `checkpoints/lavie/unet/config.json` and `checkpoints/lavie/scheduler/config.json` to below.
+
+Unet config.
 
 ``` json
 {
@@ -46,5 +48,23 @@ Please replace the lavie model's unet config file `checkpoints/lavie/unet/config
   "use_first_frame": false,
   "use_linear_projection": false,
   "use_relative_position": false
+}
+```
+
+Scheduler config.
+
+``` json
+{
+  "_class_name": "DDPMScheduler",
+  "_diffusers_version": "0.7.0.dev0",
+  "beta_end": 0.02,
+  "beta_schedule": "linear",
+  "beta_start": 0.0001,
+  "num_train_timesteps": 1000,
+  "set_alpha_to_one": false,
+  "skip_prk_steps": true,
+  "steps_offset": 1,
+  "trained_betas": null,
+  "clip_sample": false
 }
 ```
