@@ -1,4 +1,4 @@
-Please replace the lavie model's config file `checkpoints/lavie/unet/config.json` and `checkpoints/lavie/scheduler/config.json` to below.
+Please replace the lavie model's config file `checkpoints/lavie/unet/config.json`, `checkpoints/lavie/scheduler/scheduler_config.json`, and `checkpoints/lavie/model_index.json` to below.
 
 Unet config.
 
@@ -66,5 +66,42 @@ Scheduler config.
   "steps_offset": 1,
   "trained_betas": null,
   "clip_sample": false
+}
+```
+
+model_index config.
+
+``` json
+{
+  "_class_name": "StableDiffusionPipeline",
+  "_diffusers_version": "0.2.2",
+  "feature_extractor": [
+    "transformers",
+    "CLIPImageProcessor"
+  ],
+  "safety_checker": [
+    "stable_diffusion",
+    "StableDiffusionSafetyChecker"
+  ],
+  "scheduler": [
+    "diffusers",
+    "DDPMScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "CLIPTextModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "CLIPTokenizer"
+  ],
+  "unet": [
+    "diffusers",
+    "UNet2DConditionModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKL"
+  ]
 }
 ```
