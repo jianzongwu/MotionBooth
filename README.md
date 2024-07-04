@@ -73,9 +73,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 # Install diffusers, transformers, and accelerate
 conda install -c conda-forge diffusers==0.29.0 transformers accelerate
 # Install xformers for PyTorch 2.1.2
-pip3 install -U xformers --index-url https://download.pytorch.org/whl/cu121
+pip install xformers==0.0.23.post1
 # Install other dependencies
-pip intall -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Data Preparation
