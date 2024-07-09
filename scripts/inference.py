@@ -109,7 +109,7 @@ def main(args):
                 generator=generator,
                 guidance_scale=args.text_guidance_scale,
                 # subject control parameters
-                bbox=bbox,
+                bbox=bbox.deepcopy(),
                 attn_edit_processor=attn_edit_processor,
                 edit_scale=args.edit_scale,
                 max_amp_steps=args.max_amp_steps,
