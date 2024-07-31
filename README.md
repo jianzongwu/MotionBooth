@@ -21,10 +21,10 @@
   </p>
 
   <p align="center">
-    <a href='TODO'>
+    <a href='https://arxiv.org/abs/2406.17758'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
     </a>
-    <a href='TODO'>
+    <a href='https://github.com/jianzongwu/MotionBooth'>
       <img src='https://img.shields.io/badge/Github-Code-blue?style=flat&logo=Github' alt='Code'>
     </a>
     <a href='https://jianzongwu.github.io/projects/motionbooth'>
