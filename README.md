@@ -289,7 +289,7 @@ Our framework is the first that is capable of generating diverse videos by takin
 article{wu2024motionbooth,
   title={MotionBooth: Motion-Aware Customized Text-to-Video Generation},
   author={Jianzong Wu and Xiangtai Li and Yanhong Zeng and Jiangning Zhang and Qianyu Zhou and Yining Li and Yunhai Tong and Kai Chen},
-  journal={arXiv pre-print arXiv:2406.17758},
+  journal={NeurIPS},
   year={2024},
 }
 ```
