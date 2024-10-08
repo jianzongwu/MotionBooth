@@ -241,7 +241,7 @@ Before training MotionBooth, please download video-text pair data from [Panda-70
 
 Please first download the [panda70m_training_2m.csv](https://drive.google.com/file/d/1jWTNGjb-hkKiPHXIbEA5CnFwjhA-Fq_Q/view) from Panda-70M official release and place it into `data/panda/panda70m_training_2m.csv`.
 
-To download random videos from the training set, we provide an easy-to-use [downloading script](scripts/download_dataset/panda.py) for downloading and organizing the videos from YouTube.
+To download random videos from the training set, we provide an easy-to-use [downloading script](scripts/download_dataset/panda_70m.py) for downloading and organizing the videos from YouTube.
 
 ``` bash
 python -m scripts.download_dataset.panda70m
@@ -255,8 +255,14 @@ data
   |- scripts
   |- panda
     |- random_500
-      |- {video1}
-      |- {video2}
+      |- video1
+        |- frame1
+        |- frame2
+        |- ...
+      |- video2
+        |- frame1
+        |- frame2
+        |- ...
       |- ...
     |- captions_random.json
     |- data/panda/panda70m_training_2m.csv
